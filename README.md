@@ -4,7 +4,9 @@ Learn atoms of a sparse dictionary using the iterative K-SVD algorithm. Useful f
 # Example Result:
 ![Example Reconstruction](/output/true_vs_reconstruct.png)
 
+Example generated using randomly generated sinusoids. See test.py.
 * Dictionary size  : 60
+* Max sparsity     : 15
 * Signal length    : 50  
 * (Random) Samples : 25
 * Compression ratio: 2:1
