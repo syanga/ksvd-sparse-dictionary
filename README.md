@@ -13,6 +13,9 @@ Example generated using randomly generated sinusoids. See test.py.
 
 # Example Usage:
 ```
+from ksvd import ksvd
+from sparseRep import random_sensor, sense, reconstruct
+
 # learn dictionary D from data
 dictionary,_,_ = ksvd(data, dictionary_size, max_sparsity, maxiter=max_iter)
 
