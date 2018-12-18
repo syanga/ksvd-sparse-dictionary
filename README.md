@@ -2,10 +2,20 @@
 Learn atoms of a sparse dictionary using the iterative K-SVD algorithm. Useful for compressive sensing applications.
 
 # Example Result:
-![Example Reconstruction](/test/true_vs_reconstruct.png)
+![Example Reconstruction](/output/true_vs_reconstruct.png)
+Test data were generated as random sinusoids of length 50. The sensing matrix
 
 # Example Usage:
+```
+# learn dictionary D from data
+dictionary,_,_ = ksvd(data, dictionary_size, max_sparsity, maxiter=max_iter)
 
+# sense test data using sensing matrix
+representation = sense(test_data, sensing_matrix)
+
+# sparse reconstruction using learned dictionary
+reconstruction = reconstruct(representation, sensing_matrix, dictionary, max_sparsity)
+```
 # References:
 * M. Aharon, M. Elad and A. Bruckstein, "K-SVD: An Algorithm for Designing Overcomplete Dictionaries for Sparse Representation," in IEEE Transactions on Signal Processing, vol. 54, no. 11, pp. 4311-4322, Nov. 2006.
 
