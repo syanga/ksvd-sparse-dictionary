@@ -3,7 +3,11 @@ Learn atoms of a sparse dictionary using the iterative K-SVD algorithm. Useful f
 
 # Example Result:
 ![Example Reconstruction](/output/true_vs_reconstruct.png)
-Test data were generated as random sinusoids of length 50. The sensing matrix
+
+* Dictionary size  : 60
+* Signal length    : 50  
+* (Random) Samples : 25
+* Compression ratio: 2:1
 
 # Example Usage:
 ```
