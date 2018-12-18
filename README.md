@@ -1,6 +1,11 @@
 # ksvd-sparse-dictionary
 Learn atoms of a sparse dictionary using the iterative K-SVD algorithm. Useful for compressive sensing applications.
 
+# Example Result:
+Inline-style: 
+![alt text](https://github.com/syanga/ksvd-sparse-dictionary/tree/master/test/true_vs_reconstruct.png "Logo Title Text 1")
+
+# Example Usage:
 
 References:
 * M. Aharon, M. Elad and A. Bruckstein, "K-SVD: An Algorithm for Designing Overcomplete Dictionaries for Sparse Representation," in IEEE Transactions on Signal Processing, vol. 54, no. 11, pp. 4311-4322, Nov. 2006.
