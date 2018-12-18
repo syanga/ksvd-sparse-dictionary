@@ -1,5 +1,5 @@
 # ksvd-sparse-dictionary
-Learn atoms of a sparse dictionary using the iterative K-SVD algorithm. Useful for compressive sensing applications.
+Sparse dictionary using the iterative K-SVD algorithm. Useful for compressive sensing applications. Sensing and reconstruction done using Orthogonal Matching Pursuit (OMP).
 
 # Example Result:
 ![Example Reconstruction](/output/true_vs_reconstruct.png)
