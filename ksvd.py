@@ -66,8 +66,7 @@ def ksvd(Data, num_atoms, sparsity, initial_D=None,
         # sparse coding stage: estimate columns of X
         gram = (D.T).dot(D)
         Dy = (D.T).dot(Y)
-        X = orthogonal_mp_gram(gram, Dy, 
-            n_nonzero_coefs=sparsity)
+        X = orthogonal_mp_gram(gram, Dy, n_nonzero_coefs=sparsity)
         # codebook update stage
         for j in range(D.shape[1]):
             # index set of nonzero components
