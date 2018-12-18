@@ -2,7 +2,7 @@
 Learn atoms of a sparse dictionary using the iterative K-SVD algorithm. Useful for compressive sensing applications.
 
 # Example Result:
-![alt text](https://github.com/syanga/ksvd-sparse-dictionary/tree/master/test/true_vs_reconstruct.png)
+![Example Reconstruction](https://raw.githubusercontent.com/syanga/ksvd-sparse-dictionary/tree/master/test/true_vs_reconstruct.png)
 
 # Example Usage:
 
