@@ -12,7 +12,7 @@ Example generated using randomly generated sinusoids. See test.py.
 * Compression ratio: 2:1
 
 # Example Usage:
-```
+```python
 from ksvd import ksvd
 from sparseRep import random_sensor, sense, reconstruct
 
